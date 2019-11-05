@@ -1,0 +1,72 @@
+#title{
+  background-image: url("../images/programer.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#mid_section{
+  background-color: #EFEFf1;
+}
+
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  line-height: 1.5;
+  margin-left: 10px;
+  align-items: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-left: 10px;
+} 
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 10px;
+} 
+
+
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+}
+.navbar-brand{
+  font-size: 2.0rem;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+.top_text{
+  padding-top: 15%;
+}
+.code{
+  padding-bottom: 30px;
+}
+.code:hover{
+  color: #D5B197;
+}
+.button{
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.pro{
+  text-decoration: underline;
+}
