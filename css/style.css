@@ -9,10 +9,15 @@
 }
 #mid_section{
   background-color: #EFEFf1;
+  padding-bottom: 20%;
 }
-
-
-
+#mid_section2{
+  background-image: linear-gradient(to bottom, #efeff1, #e7e8ea, #dfe1e2, #d7dadb, #d0d3d3);
+}
+#bot_section{
+    background: rgb(208,211,211);
+    background: linear-gradient(180deg, rgba(208,211,211,1) 0%, rgba(184,184,184,1) 50%, rgba(154,154,154,1) 100%);
+}
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -34,9 +39,15 @@ h3{
   font-size: 1rem;
   line-height: 1.5;
   margin-left: 10px;
-} 
-
-
+}
+.carousel-item {
+    width: 800px;
+    height: 400px;
+}
+.carousel_size {
+    width: 800px;
+    height: 400px;
+}
 .navbar{
   padding-bottom: 2.5rem;
 }
@@ -49,13 +60,27 @@ h3{
 .navbar-brand{
   font-size: 2.0rem;
 }
-
-
 .container-fluid{
   padding: 3% 15%;
 }
 .top_text{
   padding-top: 15%;
+}
+.row_tec{
+  padding-top: 5%;
+}
+.row_form{
+}
+.row_carousel{
+  position: relative;
+  padding: 100px;
+  margin: auto;
+}
+.tec_title{
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  text-decoration: underline;
 }
 .code{
   padding-bottom: 30px;
