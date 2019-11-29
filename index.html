@@ -10,6 +10,7 @@
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
   <script src="https://kit.fontawesome.com/8aed23412e.js" crossorigin="anonymous"></script>  
 
@@ -32,49 +33,201 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="#">Habilidades </a>
+                <a class="nav-link" href="#mid_section">Habilidades </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Formação</a>
+                <a class="nav-link" href="#mid_section2">Formação</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="#bot_section">Contato</a>
               </li>
             </ul>
           </div>
       </nav>
 
-      <!-- Title -->
-      <div class="col-lg-6 col-sm-6 top_text">
+      <!-- TITULOS E DESCRIPTION -->
+      <div class="col-lg-6 col-md-6 col-sm-10 top_text">
           <h1>Olá, sou Jonas</h1>
           <h2>Essa página contém minhas informações e um exemplo de codificação Front-end básico.</h2>
-          <button type="button" class="btn btn-outline-dark btn-lg button">Linked <i class="fab fa-linkedin"></i></button>
-          <button type="button" class="btn btn-dark button btn-lg"><i class="fab fa-github"></i> GitHub</button>
+          <button onclick="location.href = 'https://www.linkedin.com/in/jonas-forte';" type="button" class="btn btn-outline-dark btn-lg button">Linked <i class="fab fa-linkedin"></i></button>
+          <button onclick="location.href = 'https://github.com/jonasfor';" type="button" class="btn btn-dark button btn-lg"><i class="fab fa-github"></i> GitHub</button>
       </div>
     </div>
   </section>
 
-
+  <!-- CONTAINERS HABILIDADES -->
   <section id="mid_section">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 col-sm-12" style="text-align: center;">
-              <i class="fas fa-code fa-4x code"></i>
-              <h2 style="text-decoration: underline;">Código</h2>
-              <h3>Desenvolver softwares com qualidade sempre foi um objetivo claro para mim. Uma boa lógica tem sido a maior ferramenta de meu uso. Busco utilizar as melhores tecnologias e padrões para cada caso de uso que desenvolvo.</h3>
+          <div class="col-lg-4 col-md-6 col-sm-12 code" style="text-align: center;">
+              <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-code fa-4x code"></i>
+                    <h2 style="text-decoration: underline;">Código</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Desenvolver softwares com qualidade sempre foi meu objetivo. Uma boa lógica tem sido a maior ferramenta de meu uso. Busco utilizar as melhores tecnologias e padrões para cada caso de uso que desenvolvo.</h3>
+                </div>
+              </div>
           </div>
-          <div class="col-lg-4 col-sm-12" style="text-align: center;">
-              <i class="far fa-user-circle fa-4x code"></i>
-              <h2 style="text-decoration: underline;">Perfil</h2>
-              <h3>Eu me considero uma pessoa calma, generosa e dedicada. Busco ouvir os outros e entender os problemas para que se encontre uma solução ou se estabeleça um diálogo. Sempre estudando e buscando melhorias.</h3>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 code" style="text-align: center;">
+              <div class="card">
+                <div class="card-header">
+                    <i class="far fa-user-circle fa-4x code"></i>
+                    <h2 style="text-decoration: underline;">Perfil</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Eu me considero uma pessoa calma, generosa e dedicada. Busco ouvir os outros e entender os problemas para que se encontre uma solução ou se estabeleça um diálogo. Sempre estudando e buscando melhorias.</h3>
+                </div>
+              </div>
           </div>
-          <div class="col-lg-4 col-sm-12" style="text-align: center;">
-              <i class="fas fa-briefcase fa-4x code"></i>
-              <h2 style="text-decoration: underline;">Profissional</h2>
-              <h3>Profissionalmente busco evoluir e exercer o melhor trabalho sempre. Sou pro ativo e tenho interesse por aquilo que faço. Me esforço para manter uma boa relação profissional e social em todos os ambientes.</h3>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 code" style="text-align: center;">
+              <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-briefcase fa-4x code"></i>
+                    <h2 style="text-decoration: underline;">Profissional</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Profissionalmente busco evoluir e exercer o melhor trabalho sempre. Sou pro ativo e tenho interesse por aquilo que faço. Me esforço para manter uma boa relação profissional e social em todos os ambientes.</h3>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <h2 class="tec_title">Tecnologias</h2><br>
+        <div class="row row_tec">
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-c-plain fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-cplusplus-line fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-css3-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+               <i class="devicon-html5-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-nodejs-plain-wordmark fa-6x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-java-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-python-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+               <i class="devicon-bootstrap-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+               <i class="devicon-git-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-javascript-plain fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-mongodb-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 code" style="text-align: center;">
+              <i class="devicon-mysql-plain-wordmark fa-5x"></i>
           </div>
         </div>
       </div>
     </section>
+
+
+  <!-- CONTAINERS FORMAÇÃO -->
+  <section id="mid_section2">
+      <div class="container-fluid">
+        <div class="row row_form">
+
+          <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+            <div class="card">
+                <div class="card-header">
+                  <i class="fas fa-graduation-cap fa-4x"></i>
+                  <h2 style="text-decoration: underline;">Graduação I</h2>
+                </div>
+                <div class="card-body">
+                  <h3>Faculdade de Ciência da Computação na Universidade Estadual do Mato Grosso do Sul, desenvolvida com iniciação a pesquisa e trabalho de conclusão de curso com o título: "Sistema explorador de arquivos baseado em criptografia".</h3>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+              <div class="card">
+                  <div class="card-header">
+                      <i class="fas fa-graduation-cap fa-4x"></i>
+                      <h2 style="text-decoration: underline;">Graduação II</h2>
+                  </div>
+                  <div class="card-body">
+                    <h3>Faculdade de Engenharia de Computação na Universidade Federal da Grande Dourados, desenvolvida com aproveitamento de conteúdo e trabalho de conclusão de curso com o título: "Uma estação meterológica de baixo custo com ESP32".</h3>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12" style="text-align: center;">
+              <div class="card">
+                  <div class="card-header">
+                      <i class="fas fa-certificate fa-4x"></i>
+                      <h2 style="text-decoration: underline;">Certificação</h2>
+                  </div>
+                  <div class="card-body">
+                    <h3>Certificados de Desenvolvimento Web, Banco de Dados, Liguagens específicas, Paradigmas de programação, Documentação (UML), GitFlow, Infraestrutura, entre outros.<br><br><br>  </h3>
+                  </div>
+             </div>
+          </div>
+
+        <div class="row row_carousel">
+            <div id="carousel_mywebapp" class="carousel slide carousel_size" data-ride="false" data-interval="2500" data-pause="hover">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_mywebapp" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel_mywebapp" data-slide-to="1"></li>
+                    <li data-target="#carousel_mywebapp" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="First slide">
+                    </div>
+                    <div class="carousel-item" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="Second slide">
+                    </div>
+                    <div class="carousel-item" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel_mywebapp" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel_mywebapp" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+      </div>
+  </section>
+  <section id="bot_section">
+      <div class="container-fluid">
+        <div class="row row_form">
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação I</h2>
+              <h3>Faculdade de Ciência da Computação na Universidade Estadual do Mato Grosso do Sul, desenvolvida com iniciação a pesquisa e trabalho de conclusão de curso com o título: "Sistema explorador de arquivos baseado em criptografia".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação II</h2>
+              <h3>Faculdade de Engenharia de Computação na Universidade Federal da Grande Dourados, desenvolvida com aproveitamento de conteúdo e trabalho de conclusão de curso com o título: "Uma estação meterológica de baixo custo com ESP32".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-certificate fa-4x"></i>
+              <h2 style="text-decoration: underline;">Certificação</h2>
+              <h3>Certificados de Desenvolvimento Web, Banco de Dados, Liguagens específicas, Paradigmas de programação, Documentação (UML), GitFlow, Infraestrutura, entre outros.</h3>
+          </div>
+        </div>
+      </div>
+  </section>
 </body>
 </html>
